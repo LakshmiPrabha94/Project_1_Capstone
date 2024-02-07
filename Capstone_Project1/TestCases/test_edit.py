@@ -1,3 +1,15 @@
+"""
+TC_PIM_02 Test Script:
+
+Description: This automation script aims to validate the functionality of editing an existing employee's information in the PIM (Personnel Information Management) module of the system.
+Steps:
+Access the PIM module of the system.
+Select the employee's record.
+Update the relevant details for the employee, such as contact information, position, or any other necessary fields.
+Save the changes.
+Expected Outcome: The automation script expects the user to successfully edit the existing employee's information in the PIM module.
+"""
+
 # Importing necessary modules and classes
 import pytest
 from Data import data
@@ -8,8 +20,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 from Automation_Scripts.edit import Edit
-
-
 
 # Fixture to set up the 'Edit' instance for the module
 @pytest.fixture
