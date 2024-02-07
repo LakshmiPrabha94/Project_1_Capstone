@@ -1,3 +1,9 @@
+"""
+
+Test Objective: Validate the user interface elements of the login page on the OrangeHRM portal.
+Expected Results: The user interface elements of the login page on the OrangeHRM portal should be designed as per requirements.
+
+"""
 # Import necessary modules and classes
 import pytest
 from Data import data
