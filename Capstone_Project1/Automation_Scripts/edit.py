@@ -1,3 +1,10 @@
+"""
+TC_PIM_02:
+
+Test Objective: Edit an existing employee in the PIM Module.
+Expected Result: The user should be able to Edit an existing employee in the PIM and should see a message for a successful employee edition.
+"""
+
 # Importing necessary modules and classes
 from Data import data
 from Locators import locators
