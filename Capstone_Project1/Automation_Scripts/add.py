@@ -1,3 +1,9 @@
+"""
+TC_PIM_01:
+
+Test Objective: Add a new employee to the PIM Module.
+Expected Result: The user should be able to add  a new employee  in the PIM and should see a message for successful employee addition.
+"""
 # Importing necessary modules and classes
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
