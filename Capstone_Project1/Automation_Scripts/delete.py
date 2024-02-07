@@ -1,3 +1,8 @@
+"""
+TC_PIM_03:
+Test Objective: Delete an existing employee in the PIM Module.
+Expected Result: The user should be able to delete existing employee information in the PIM and should see a message for successful deletion.
+"""
 # Importing necessary modules and classes
 from Data import data
 from Locators import locators
