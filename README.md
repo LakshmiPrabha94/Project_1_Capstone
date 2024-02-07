@@ -5,6 +5,7 @@ __**Capstone Project 1**__
 **Overview:**
 Capstone Project 1 is a comprehensive testing endeavor focusing on critical functionalities of the OrangeHRM portal, primarily centered around user authentication and employee management within the Personnel Information Management (PIM) module. 
 This project consists of five meticulously crafted test cases to ensure thorough validation of these functionalities.
+By meticulously examining user authentication and employee management functionalities, this project aims to identify and address any potential issues or inconsistencies, ultimately enhancing the overall quality of the application.
 
 **Test Cases:**
 
@@ -27,6 +28,3 @@ _TC_PIM_03:_
 
 1. This test case assesses the functionality to delete an existing employee from the PIM module.
 2. It ensures that users can successfully remove employee records and receive confirmation of the deletion.
-
-**Purpose:**
-The primary objective of Capstone Project 1 is to conduct thorough testing to ensure the reliability, functionality, and usability of critical features within the OrangeHRM portal. By meticulously examining user authentication and employee management functionalities, this project aims to identify and address any potential issues or inconsistencies, ultimately enhancing the overall quality of the application.
