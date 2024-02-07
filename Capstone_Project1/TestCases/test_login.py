@@ -1,3 +1,23 @@
+"""
+TC_Login_01 Automation Script:
+
+Description: This automation script is designed to verify the successful login functionality of the OrangeHRM portal for employees.
+Steps:
+Launch the OrangeHRM portal.
+Enter valid employee credentials.
+Click on the login button.
+Expected Outcome: The script expects the user to be logged in successfully, indicating that the login functionality is working as expected.
+
+TC_Login_02 Automation Script:
+
+Description: This automation script aims to validate the handling of invalid login attempts on the OrangeHRM portal for employees.
+Steps:
+Launch the OrangeHRM portal.
+Enter invalid employee credentials.
+Click on the login button.
+Expected Outcome: The script anticipates the display of a valid error message indicating that the provided credentials are invalid, thus ensuring proper error-handling functionality.
+"""
+
 # Import necessary modules and classes
 import pytest
 from Data import data
