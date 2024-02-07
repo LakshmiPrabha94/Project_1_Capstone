@@ -1,3 +1,14 @@
+"""
+TC_PIM_03 Test Script:
+
+Description: This automation script is created to test the functionality of deleting an existing employee in the PIM (Personnel Information Management) module of the system.
+Steps:
+Access the PIM module of the system.
+Select the employee record.
+Initiate the deletion process.
+Expected Outcome: The automation script expects the user to successfully delete the selected employee from the PIM module and receive a confirmation message indicating the successful deletion of the employee's information. 
+This verifies the proper functioning of the delete functionality within the PIM module.
+"""
 # Import necessary modules and classes
 from Data import data
 from Locators import locators
