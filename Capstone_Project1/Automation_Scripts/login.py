@@ -1,3 +1,16 @@
+"""
+TC_Login_01 & TC_Login_02
+
+TC_Login_01:
+Test Objective: Successful Employee Login to OrangeHRM portal.
+Expected Result: The user is logged in Successfully.
+
+TC_Login_02:
+Test Objective: Invalid Employee login to OrangeHRM portal.
+Expected Result: A valid error message for invalid credentials is displayed.
+"""
+
+
 # Import necessary modules and classes
 from Data import data
 from Locators import locators
@@ -13,7 +26,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class Login:
     # Initialize the WebDriver at the class level for reuse across methods
-    driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
+    driver = webdriver.Firefox(service=Service(GeckoDriverManage&r().install()))
 
     def booting_function(self):
         try:
