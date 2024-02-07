@@ -1,3 +1,15 @@
+"""
+TC_PIM_01 Test Script:
+
+Description: This automation script is designed to verify the functionality of adding a new employee to the PIM (Personnel Information Management) module of the system.
+Steps:
+Access the PIM module of the system.
+Navigate to the option for adding a new employee.
+Fill in the required details for the new employee such as name, contact information, and position.
+Submit the form to add the new employee.
+Expected Outcome: The automation script anticipates that the user will successfully add a new employee to the PIM module
+"""
+
 # Import necessary modules and classes
 from Data import data
 from Locators import locators
